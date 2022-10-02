@@ -1,0 +1,204 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 10%;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/* -------------------------NAV BAR */
+nav {
+    background-color: #1f2937;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    color: #f9faf8;
+}
+
+nav div ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* -------------------------------- MAIN PAGE */
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: extra bolder;
+    color: #f9faf8;
+}
+
+main {
+    background-color: #1f2937;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+main div {
+    /* background-color: cyan; */
+    color: white;
+    height: 500px;
+    width: 350px;
+    overflow: hidden;
+}
+
+img {
+    height: 600px;
+    border-radius: 50px 100px;
+}
+
+.h1-container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h1-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.h1-container button {
+    background-color: #3882f6;
+    border-radius: 20px;
+    width: 45%;
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+/* ------------------------Random Information */
+.rand-info {
+    width: 100%;
+    height: 550px;
+    /* background-color: rgb(215, 247, 247); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    box-sizing: border-box;
+}
+
+h2 {
+    position: absolute;
+    top: 720px;
+    font-size: 36px;
+    font-weight: extra bolder;
+    color: #1f2937;
+}
+
+.cards {
+    height: 150px;
+    width: 150px;
+    /* border: 3px solid black; */
+}
+
+.cards div {
+    border: 5px solid #3882f6;
+    border-radius: 20%;
+    height: 150px;
+}
+
+.cards p {
+    text-align: center;
+    color: grey;
+}
+
+/* -----------------------Testimonials Section */
+
+.para {
+    box-sizing: border-box;
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para div {
+    height: 300px;
+    width: 68%;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 1.8;
+    color: #1f2937;
+}
+
+.god-msg {
+    position: relative;
+    font-weight: bolder;
+    left: 350px;
+    bottom: 30px;
+}
+
+/* ------------------------------Call to Action */
+.cto {
+    box-sizing: border-box;
+    /* background-color: #e5e7eb; */
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cto div {
+    box-sizing: border-box;
+    background-color: #3882f6;
+    height: 250px;
+    width: 75%;
+    border-radius: 20px;
+    padding-left: 140px;
+    padding-top: 65px;
+}
+
+.cto div p {
+    color: white;
+    font-weight: bold;
+}
+
+.cto div button {
+    float: right;
+    position: relative;
+    bottom: 70px;
+    right: 150px;
+    background-color: transparent;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+/* -------------------------------------Footer */
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(14, 35, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
